@@ -18,6 +18,13 @@ const config = {
   docs: {
     autodocs: "tag",
     defaultName: 'Documentation',
+  },
+  viteFinal: async (config, { configType }) => {
+    if (configType === "PRODUCTION") {
+      config.base = '/my-ds/'
+    }
+
+    return config;
   }
 };
 export default config;
