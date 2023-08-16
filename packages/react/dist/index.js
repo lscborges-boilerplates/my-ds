@@ -312,12 +312,12 @@ var Button = styled("button", {
         color: "$ignite300",
         border: "2px solid $ignite500",
         "&not(:disabled):hover": {
-          backgroundColor: "$ignite500",
+          background: "$ignite500",
           color: "$white"
         },
         "&:disabled": {
-          backgroundColor: "$gray200",
-          borderColor: "$gray200"
+          borderColor: "$gray200",
+          color: "$gray200"
         }
       },
       tertiary: {
@@ -326,7 +326,8 @@ var Button = styled("button", {
           color: "$white"
         },
         "&:disabled": {
-          backgroundColor: "$gray600"
+          color: "$gray600",
+          cursor: "not-allowed"
         }
       }
     },
