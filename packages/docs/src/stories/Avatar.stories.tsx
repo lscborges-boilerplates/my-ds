@@ -8,6 +8,14 @@ export default {
   tags: ['autodocs'],
   args: {
     src: 'https://avatars.githubusercontent.com/u/4060187?v=4',
+    alt: 'Avatar',
+  },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
   },
 } as Meta<AvatarProps>
 
