@@ -2,7 +2,13 @@ import { dirname, join } from "path";
 /** @type { import('@storybook/react-vite').StorybookConfig } */
 const config = {
   stories: ["../src/pages/**/*.mdx", "../src/stories/**/*.stories.tsx"],
-  addons: [getAbsolutePath("@storybook/addon-links"), getAbsolutePath("@storybook/addon-essentials"), getAbsolutePath("@storybook/addon-interactions")],
+  addons: [
+    getAbsolutePath("@storybook/addon-links"),
+    getAbsolutePath("@storybook/addon-essentials"),
+    getAbsolutePath("@storybook/addon-interactions"),
+    getAbsolutePath("@storybook/addon-interactions"),
+    getAbsolutePath("@storybook/addon-docs")
+    ],
   framework: {
     name: getAbsolutePath("@storybook/react-vite"),
     options: {}

@@ -5,6 +5,7 @@ import { Avatar, AvatarProps } from '@my-ui/react'
 export default {
   title: 'Data display/Avatar',
   component: Avatar,
+  tags: ['autodocs'],
   args: {
     src: 'https://avatars.githubusercontent.com/u/4060187?v=4',
   },

@@ -5,6 +5,7 @@ import { Heading, HeadingProps } from '@my-ui/react'
 export default {
   title: 'Typography/Heading',
   component: Heading,
+  tags: ['autodocs'],
   args: {
     children: 'Custom Title',
   },

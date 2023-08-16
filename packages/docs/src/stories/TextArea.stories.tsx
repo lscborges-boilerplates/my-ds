@@ -5,6 +5,7 @@ import { Box, Text, TextArea, TextAreaProps } from '@my-ui/react'
 export default {
   title: 'Form/TextArea ',
   component: TextArea,
+  tags: ['autodocs'],
   args: {},
   decorators: [
     (Story) => {
