@@ -22,6 +22,9 @@ jobs:
 
       - name: Build
         run: npm run build
+        env: 
+          TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
+          TURBO_TEAM: lscborges1
 
       - name: Deploy
         working-directory: ./packages/docs
