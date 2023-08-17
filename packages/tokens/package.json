@@ -1,5 +1,5 @@
 {
-  "name": "@my-ui/tokens",
+  "name": "@my-u1/tokens",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -14,8 +14,8 @@
   "author": "Lucas Borges <lscborges1@gmail.com> (https://github.com/lscborges1)",
   "license": "MIT",
   "devDependencies": {
-    "@my-ui/ts-config": "*",
-    "@my-ui/eslint-config": "*",
+    "@my-u1/ts-config": "*",
+    "@my-u1/eslint-config": "*",
     "tsup": "^7.1.0",
     "typescript": "^5.1.0"
   }

@@ -1,6 +1,6 @@
 {
   "extends": [
-    "@my-ui/eslint-config",
+    "@my-u1/eslint-config",
     "plugin:storybook/recommended"
   ]
 }

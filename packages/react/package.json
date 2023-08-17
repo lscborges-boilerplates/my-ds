@@ -1,5 +1,5 @@
 {
-  "name": "@my-ui/react",
+  "name": "@my-u1/react",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -14,9 +14,9 @@
   "author": "Lucas Borges <lscborges1@gmail.com> (https://github.com/lscborges1)",
   "license": "MIT",
   "devDependencies": {
-    "@my-ui/eslint-config": "*",
-    "@my-ui/tokens": "*",
-    "@my-ui/ts-config": "*",
+    "@my-u1/eslint-config": "*",
+    "@my-u1/tokens": "*",
+    "@my-u1/ts-config": "*",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
     "react": "^18.2.0",

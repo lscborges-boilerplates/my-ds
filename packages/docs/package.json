@@ -1,5 +1,5 @@
 {
-  "name": "@my-ui/docs",
+  "name": "@my-u1/docs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -29,10 +29,10 @@
     "vite": "^4.3.9"
   },
   "dependencies": {
-    "@my-ui/eslint-config": "*",
-    "@my-ui/react": "*",
-    "@my-ui/tokens": "*",
-    "@my-ui/ts-config": "*",
+    "@my-u1/eslint-config": "*",
+    "@my-u1/react": "*",
+    "@my-u1/tokens": "*",
+    "@my-u1/ts-config": "*",
     "@storybook/addon-a11y": "^7.3.1",
     "@storybook/storybook-deployer": "^2.8.16",
     "phosphor-react": "^1.4.1",
